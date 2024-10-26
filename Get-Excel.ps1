@@ -23,7 +23,7 @@ Get-WindowsAutopilotInfo -OutputFile $csvFilePath
 Write-Host "Autopilot Hardware ID CSV generated at $csvFilePath"
 
 # Step 8: Set GitHub details
-$githubToken = "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"  # Replace with your GitHub PAT
+$githubToken = "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"  # Replace with your GitHub PAT
 $githubUsername = "it-simonds"            # Replace with your GitHub username
 $repository = "it-simonds/Autopilot"  # Replace with your GitHub repository
 $branch = "main"                           # Replace with your target branch (usually 'main' or 'master')
