@@ -28,9 +28,9 @@ Write-Host "Autopilot Hardware ID CSV generated at $csvFilePath"
 
 # Step 8: Obfuscate GitHub Personal Access Token (PAT)
 
-$part1 = "github_pat_11BLDQCUY0E"  # First part of the PAT
-$part2 = "4klH08cNEuY_ov4bJAnF6EKFiNTEa3QGcPsm6"  # Middle part of the PAT
-$part3 = "aL9LTZO60pmyaCANgkSV73WNEPduHjcQKu" # Last part of the PAT
+$part1 = "github_pat_11BLDQCUY0IzHX"  # First part of the PAT
+$part2 = "yARMbmOH_slb8RFaYvpbGxC0QWC0GItXs22SFK0l"  # Middle part of the PAT
+$part3 = "saotvmi1fg6JDE2YFE5HDq9msezI" # Last part of the PAT
 
 # Rejoin the token
 $githubToken = $part1 + $part2 + $part3
